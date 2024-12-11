@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.faq-head {
+    @apply text-2xl font-semibold pr-22;
+}
+.tilt-star{
+    @apply absolute w-10 h-14 -rotate-45;
+}
+.red-faq{
+    @apply bg-PastelRed text-white p-8 rounded-md;
+}
+.footer-links{
+    @apply flex flex-col space-y-3 font-medium text-sm;
+}
